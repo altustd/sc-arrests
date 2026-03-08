@@ -4,8 +4,8 @@ A simple, self-contained data science portfolio project exploring public arrest 
 
 This notebook analyzes trends over time, demographics (age & gender), most common offense types, and basic spatial distribution using Python.
 
-![Columbia, SC Skyline](Seal_of_Columbia,_South_Carolina)
-*(Seal of Columbia, SC)*
+![Columbia, SC Skyline](Downtown_Columbia.png)
+*(Downtown Columbia, SC)*
 
 ## Key Visualizations
 
