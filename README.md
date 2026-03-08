@@ -1,6 +1,6 @@
 # Columbia, SC Arrest Data Analysis (2016–2024)
 
-A simple, self-contained data science portfolio project exploring public arrest records from the City of Columbia, South Carolina.
+A simple, self-contained data project exploring public arrest records from the City of Columbia, South Carolina.
 
 This notebook analyzes trends over time, demographics (age & gender), most common offense types, and basic spatial distribution using Python.
 
