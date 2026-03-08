@@ -9,17 +9,17 @@ This notebook analyzes trends over time, demographics (age & gender), most commo
 
 ## Key Visualizations
 
-### Arrest Locations Heatmap / Overview
-![Arrest Locations](arrests_columbia_sc.png)
-
-### Arrests by Gender & Age
-![Arrests by Gender](arrests_columbia_sc_by_gender.png)
+### Most Common Offense Types
+![Most Common Offenses](arrests_columbia_sc_types.png)
 
 ### Arrest Trends Over Time
 ![Arrest Trends](arrests_columbia_sc_timebars.png)
 
-### Most Common Offense Types
-![Most Common Offenses](arrests_columbia_sc_types.png)
+### Arrests by Gender & Age
+![Arrests by Gender](arrests_columbia_sc_by_gender.png)
+
+### Arrest Locations Heatmap / Overview
+![Arrest Locations](arrests_columbia_sc.png)
 
 ## Dataset
 - **Source**: City of Columbia Open Data Portal  
