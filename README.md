@@ -1,42 +1,36 @@
 # Columbia, SC Arrest Data Analysis (2016–2024)
 
-A data science portfolio project analyzing public arrest records from the City of Columbia, South Carolina.  
-Explores trends over time, demographics, crime types, and spatial hotspots using Python (Pandas, Seaborn, Folium, scikit-learn).
+A simple, self-contained data science portfolio project exploring public arrest records from the City of Columbia, South Carolina.
 
-![Columbia SC Skyline](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Columbia_SC_skyline.jpg/800px-Columbia_SC_skyline.jpg)  
-*(Image: Columbia, SC skyline – for illustration)*
+This notebook analyzes trends over time, demographics (age & gender), most common offense types, and basic spatial distribution using Python.
 
-## Features / Skills Demonstrated
-- Data cleaning & feature engineering
-- Time-series EDA (trends by year, month, day)
-- Demographic analysis (age, sex, race)
-- Crime type frequency
-- Geospatial visualization (Folium heatmaps)
-- Clustering for hotspot detection (K-Means)
-
-## Dataset
-- Source: City of Columbia Open Data Portal  
-  [Arrest Data (1/1/2016 – 12/31/2024)](https://coc-colacitygis.opendata.arcgis.com/datasets/ColaCityGIS::arrest-1-1-2016-to-12-31-2024/about)
-- Format: CSV with fields like Arrest_Date, Offense_Description, Age, Sex, X/Y coordinates (State Plane feet)
+![Columbia, SC Skyline](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Columbia_SC_skyline.jpg/800px-Columbia_SC_skyline.jpg)  
+*(Columbia, SC skyline – illustration)*
 
 ## Key Visualizations
 
-### Top Crime Types (Offense Descriptions)
-![Top Offenses](top_offenses.png)  
-*(Horizontal bar chart of most frequent offense types)*
+### Arrest Locations Heatmap / Overview
+![Arrest Locations](arrests_columbia_sc.png)
 
-### Age Distribution by Sex
-![Age by Sex](age_distribution_by_sex.png)  
-*(Stacked histogram showing age groups colored by sex)*
+### Arrests by Gender & Age
+![Arrests by Gender](arrests_columbia_sc_by_gender.png)
 
-### Arrest Heatmap (Spatial Hotspots)
-![Arrest Heatmap](columbia_arrest_heatmap.png)  
-*(Folium-generated heatmap of arrest locations across Columbia – saved as static image or view interactive HTML)*
+### Arrest Trends Over Time
+![Arrest Trends](arrests_columbia_sc_timebars.png)
 
-### K-Means Clustering of Arrest Locations
-![Clusters](arrest_clusters.png)  
-*(Scatter plot with color-coded clusters highlighting potential hotspots)*
+### Most Common Offense Types
+![Most Common Offenses](arrests_columbia_sc_types.png)
 
+## Dataset
+- **Source**: City of Columbia Open Data Portal  
+  [Arrest Data (1/1/2016 – 12/31/2024)](https://coc-colacitygis.opendata.arcgis.com/datasets/ColaCityGIS::arrest-1-1-2016-to-12-31-2024/about)
+- **File**: `arrests_columbia_sc.csv` (included in this repo for reproducibility)
+
+## How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/altustd/sc-arrests.git
+   cd sc-arrests
 ## How to Run Locally
 1. Clone the repo:
    ```bash
