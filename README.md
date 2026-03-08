@@ -2,7 +2,7 @@
 
 A simple, self-contained data project exploring public arrest records from the City of Columbia, South Carolina.
 
-This notebook analyzes trends over time, demographics (age & gender), most common offense types, and basic spatial distribution using Python.
+This notebook analyzes trends over time, demographics (age & gender), most common offenses, and basic spatial distribution using Python.
 
 ![Columbia, SC Skyline](Downtown_Columbia.png)
 *(Downtown Columbia, SC)*
