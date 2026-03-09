@@ -19,7 +19,7 @@ This notebook analyzes trends over time, demographics (age & gender), most commo
 ![Arrests by Gender](arrests_columbia_sc_by_gender.png)
 
 ### Arrest Locations Heatmap / Overview
-![Arrest Locations](arrests_columbia_sc.png)
+![Arrest Locations](arrests_columbia_sc_heatmap.png)
 
 ## Dataset
 - **Source**: City of Columbia Open Data Portal  
